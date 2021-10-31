@@ -5,6 +5,13 @@ body {
 	place-items: center center;
 }
 
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: black;
+		color: white;
+	}
+}
+
 img{ 
     transform-origin:50% 50%;
 	animation:2s rotate infinite linear; 
